@@ -347,12 +347,18 @@ import { CommonModule } from '@angular/common';
       .floating-element {
         display: none;
       }
+      .scroll-text{
+        display: none;
+      }
     }
     
     @media (max-width: 480px) {
       .hero-actions {
         flex-direction: column;
         align-items: center;
+      }
+      .scroll-text{
+        display: none;
       }
       
       .btn {
