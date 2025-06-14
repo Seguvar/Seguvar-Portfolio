@@ -52,9 +52,9 @@ import { CommonModule } from '@angular/common';
               <li>Java & Spring Boot</li>
               <li>Angular & TypeScript</li>
               <li>HTML, CSS & JavaScript</li>
-              <li>MySQL & Database Design</li>
+              <li>MySQL</li>
               <li>REST APIs</li>
-              <li>Git & Version Control</li>
+              <li>Git</li>
             </ul>
           </div>
           
@@ -66,14 +66,14 @@ import { CommonModule } from '@angular/common';
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                Keela Surandai, Tamil Nadu
+               <a href="https://maps.app.goo.gl/CeCBR4aEqnzHaEno8" style="text-decoration: none;color: #b3b3b3" target="_blank">Keela Surandai, Tamil Nadu</a> 
               </p>
               <p>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
-                seguvar.m&#64;gmail.com
+               <a href="mailto:seguvar.m@gmail.com" style="text-decoration: none;color: #b3b3b3">seguvar.m&#64;gmail.com</a> 
               </p>
             </div>
           </div>
@@ -83,7 +83,7 @@ import { CommonModule } from '@angular/common';
           <div class="footer-divider"></div>
           <div class="footer-bottom-content">
             <p>&copy; {{ currentYear }} Sangara Sequvar M. All rights reserved.</p>
-            <p>Built with ❤️ using Angular & Spring Boot</p>
+            <p>Built with Angular & Spring Boot</p>
           </div>
         </div>
       </div>

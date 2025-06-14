@@ -300,7 +300,7 @@ export class ProjectsComponent {
         'Smooth animations and transitions'
       ],
       liveUrl: '#',
-      githubUrl: 'https://github.com/Seguvar'
+      githubUrl: 'https://github.com/Seguvar/Seguvar-Portfolio'
     }
   ];
 }

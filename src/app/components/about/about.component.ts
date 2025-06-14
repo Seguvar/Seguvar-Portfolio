@@ -74,7 +74,7 @@ import { CommonModule } from '@angular/common';
                 </svg>
               </div>
               <h4>Achiever</h4>
-              <p>Third place winner in paper presentation and multiple certifications in development.</p>
+              <p>Third place winner in paper presentation on ISTE Event and multiple certifications in development.</p>
             </div>
             
             <div class="highlight-card animate-fade-in-right">

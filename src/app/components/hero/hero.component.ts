@@ -39,7 +39,7 @@ import { CommonModule } from '@angular/common';
                 <span class="stat-label">Years Experience</span>
               </div>
               <div class="stat">
-                <span class="stat-number">10+</span>
+                <span class="stat-number">3+</span>
                 <span class="stat-label">Projects Completed</span>
               </div>
               <div class="stat">
@@ -51,7 +51,7 @@ import { CommonModule } from '@angular/common';
           
           <div class="hero-image animate-fade-in-right">
             <div class="image-container">
-              <img src="assets/images/profile.jpg" alt="Profile Image" class="profile-image">
+              <img src="https://i.pinimg.com/originals/b5/a8/2b/b5a82be892eec3342d40401565e5bd07.jpg" alt="Profile Image" class="profile-image">
               <div class="image-overlay"></div>
             </div>
             <div class="floating-elements">

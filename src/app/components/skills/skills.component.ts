@@ -16,7 +16,7 @@ import { CommonModule } from '@angular/common';
         <div class="skills-grid">
           <div class="skill-category" *ngFor="let category of skillCategories">
             <div class="category-header">
-              <div class="category-icon" [innerHTML]="category.icon"></div>
+              <!-- <div class="category-icon" [innerHTML]="category.icon"></div> -->
               <h3 class="category-title">{{ category.title }}</h3>
             </div>
             <div class="skills-list">

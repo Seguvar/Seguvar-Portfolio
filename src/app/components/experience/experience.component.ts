@@ -51,7 +51,7 @@ import { CommonModule } from '@angular/common';
           <h3 class="section-subtitle">Extra-Curricular Activities</h3>
           <div class="activities-grid">
             <div class="activity-card" *ngFor="let activity of activities">
-              <div class="activity-icon" [innerHTML]="activity.icon"></div>
+              <!-- <div class="activity-icon" [innerHTML]="activity.icon"></div> -->
               <h4>{{ activity.title }}</h4>
               <p class="activity-duration">{{ activity.duration }}</p>
               <p class="activity-description">{{ activity.description }}</p>

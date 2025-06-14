@@ -32,7 +32,8 @@ interface ContactForm {
                 </svg>
               </div>
               <h3>Location</h3>
-              <p>5-3-88, Main Road<br>Keela Surandai, Tamil Nadu</p>
+              <a href="https://maps.app.goo.gl/B2Y4Ng6bjmRPRWTv8" target="_blank"><p style="color: #00d4ff;">5-3-88, Main Road<br>Keela Surandai, Tamil Nadu</p></a>
+              
             </div>
             
             <div class="info-card">
