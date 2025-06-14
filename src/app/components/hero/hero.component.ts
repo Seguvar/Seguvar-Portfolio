@@ -350,6 +350,8 @@ import { CommonModule } from '@angular/common';
       .scroll-text{
         display: none;
       }
+      .scroll-indicator {
+        display: none;
     }
     
     @media (max-width: 480px) {
@@ -358,6 +360,9 @@ import { CommonModule } from '@angular/common';
         align-items: center;
       }
       .scroll-text{
+        display: none;
+      }
+      .scroll-indicator {
         display: none;
       }
       
