@@ -34,10 +34,10 @@ import { CommonModule } from '@angular/common';
               </a>
             </div>
             <div class="hero-stats">
-              <div class="stat">
+              <!-- <div class="stat">
                 <span class="stat-number">2+</span>
                 <span class="stat-label">Years Experience</span>
-              </div>
+              </div> -->
               <div class="stat">
                 <span class="stat-number">3+</span>
                 <span class="stat-label">Projects Completed</span>
