@@ -235,7 +235,7 @@ export class HeaderComponent implements OnInit {
 
   toggleTheme() {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1TUBUmdXnTVZe-6No3x87Kx-z5d3y4Bsc/view?usp=drive_link';
+    link.href = 'https://drive.google.com/file/d/1iT_klQJFFn1xVHeapNHuTTF-D7H3MIA-/view?usp=sharing';
     link.download = 'Sangara Sequvar M resume.pdf';
     document.body.appendChild(link);
     link.click();
