@@ -24,9 +24,11 @@ export class EmailService {
 
   sendEmail(emailData: EmailRequest): Observable<EmailResponse> {
     const headers = new HttpHeaders({
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
     });
 
+    // Send raw emailData object without wrapping
     return this.http.post<EmailResponse>(`${this.apiUrl}/contact`, emailData, { headers });
   }
 }

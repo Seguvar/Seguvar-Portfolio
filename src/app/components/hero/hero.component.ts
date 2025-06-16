@@ -353,6 +353,7 @@ import { CommonModule } from '@angular/common';
       .scroll-indicator {
         display: none;
     }
+  }
     
     @media (max-width: 480px) {
       .hero-actions {

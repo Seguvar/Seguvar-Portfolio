@@ -1,7 +1,8 @@
+
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+import { EmailService, EmailRequest } from '../../services/email.service';
 
 interface ContactForm {
   name: string;
@@ -329,6 +330,7 @@ interface ContactForm {
     }
   `]
 })
+
 export class ContactComponent {
   formData: ContactForm = {
     name: '',
@@ -341,32 +343,35 @@ export class ContactComponent {
   submitMessage = '';
   submitSuccess = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private emailService: EmailService) {}
 
-  async onSubmit() {
+  onSubmit() {
     if (this.isSubmitting) return;
+
+    console.log('Sending form data:', this.formData);
 
     this.isSubmitting = true;
     this.submitMessage = '';
 
-    try {
-      // Simulate API call - replace with actual Spring Boot endpoint
-      const response = await this.http.post('http://localhost:8080/api/contact', this.formData).toPromise();
-      
-      this.submitSuccess = true;
-      this.submitMessage = 'Thank you for your message! I\'ll get back to you soon.';
-      this.resetForm();
-    } catch (error) {
-      this.submitSuccess = false;
-      this.submitMessage = 'Sorry, there was an error sending your message. Please try again or contact me directly via email.';
-    } finally {
-      this.isSubmitting = false;
-      
-      // Clear message after 5 seconds
-      setTimeout(() => {
-        this.submitMessage = '';
-      }, 5000);
-    }
+    this.emailService.sendEmail(this.formData).subscribe({
+      next: (response) => {
+        this.submitSuccess = true;
+        this.submitMessage = 'Thank you for your message! I\'ll get back to you soon.';
+        this.resetForm();
+        this.isSubmitting = false;
+        setTimeout(() => {
+          this.submitMessage = '';
+        }, 5000);
+      },
+      error: (error) => {
+        this.submitSuccess = false;
+        this.submitMessage = 'Sorry, there was an error sending your message. Please try again or contact me directly via email.';
+        this.isSubmitting = false;
+        setTimeout(() => {
+          this.submitMessage = '';
+        }, 5000);
+      }
+    });
   }
 
   private resetForm() {
