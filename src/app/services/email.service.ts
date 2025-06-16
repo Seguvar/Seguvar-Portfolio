@@ -18,7 +18,7 @@ export interface EmailResponse {
   providedIn: 'root'
 })
 export class EmailService {
-  private apiUrl = 'http://localhost:8080/api'; // Spring Boot backend URL
+  private apiUrl = 'https://seguvar.onrender.com/api'; // Spring Boot backend URL
 
   constructor(private http: HttpClient) {}
 
