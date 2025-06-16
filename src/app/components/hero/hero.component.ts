@@ -51,7 +51,7 @@ import { CommonModule } from '@angular/common';
           
           <div class="hero-image animate-fade-in-right">
             <div class="image-container">
-              <img src="https://i.postimg.cc/JzxxmLyC/neuralpony.png" alt="Profile Image" class="profile-image">
+              <img src="https://i.postimg.cc/QC69PqQ9/Seguvar-profile.png" alt="Profile Image" class="profile-image">
               <div class="image-overlay"></div>
             </div>
             <div class="floating-elements">
