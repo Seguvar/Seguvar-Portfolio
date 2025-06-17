@@ -358,7 +358,7 @@ export class ExperienceComponent {
       position: 'Python Full Stack Developer Intern',
       company: 'Vetri Technologies Pvt Ltd',
       duration: '2023',
-      description: 'Intensive 15-day internship program focused on Python Full Stack Development, learning modern web development practices and frameworks.',
+      description: 'Intensive one month internship program focused on Python Full Stack Development, learning modern web development practices and frameworks.',
       achievements: [
         'Built dynamic web applications using Python and Django',
         'Learned frontend technologies including HTML, CSS, and JavaScript',
