@@ -18,9 +18,7 @@ import { CommonModule } from '@angular/common';
             <div class="text-block animate-fade-in-left">
               <h3>My Journey</h3>
               <p>
-                I'm a passionate Java developer who enjoys turning ideas into reliable backend systems. 
-                Currently pursuing my Bachelor's in Computer Science and Engineering at JP College of Engineering, 
-                I've been honing my skills in Java, Spring Boot, and modern web technologies.
+                I'm a passionate Java developer with a Bachelor's in Computer Science and Engineering from JP College of Engineering, seeking opportunities to build reliable backend systems using Java, Spring Boot, and modern web technologies.
               </p>
             </div>
             
@@ -36,9 +34,7 @@ import { CommonModule } from '@angular/common';
             <div class="text-block animate-fade-in-left">
               <h3>Beyond Coding</h3>
               <p>
-                When I'm not coding, you'll find me playing badminton, leading as an NCC member, or 
-                working on 3D projects with Unity and Blender. I believe in continuous learning and 
-                pushing the boundaries of what's possible.
+                When I'm not coding, you'll find me playing badminton or diving into books like The Monk Who Sold His Ferrari and The 5 AM Club by Robin Sharma. I believe in continuous learning and pushing the boundaries of what's possible on both personally and professionally.
               </p>
             </div>
           </div>

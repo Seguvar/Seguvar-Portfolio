@@ -306,11 +306,11 @@ export class SkillsComponent {
     },
     {
       title: 'Python Full Stack Internship',
-      description: 'Completed 15-day intensive Python Full Stack Development internship',
+      description: 'Completed one month intensive Python Full Stack Development internship',
       date: '2023'
     },
     {
-      title: 'Java Full Stack Internship',
+      title: 'Java Full Stack  Internship',
       description: 'Successfully completed 3-month Java Full Stack Development internship',
       date: '2024'
     }
